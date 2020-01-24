@@ -8,8 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap 4 CSS -->
     <link rel="stylesheet" href="bootstrap_v4.3.1/css/bootstrap.min.css" type="text/css">
-    <!-- Swiper API CSS by Vladimir Kharlampidi - GitHub: https://github.com/nolimits4web/swiper -->
-    <link rel="stylesheet" href="vendor/swiper/css/swiper.min.css">
     <!-- Custom Style CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
@@ -159,8 +157,6 @@
     <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <!-- Bootstrap 4 JS -->
     <script src="bootstrap_v4.3.1/js/bootstrap.min.js" type="text/javascript"></script>
-    <!-- Swiper API JS by Vladimir Kharlampidi - GitHub: https://github.com/nolimits4web/swiper -->
-    <script src="vendor/swiper/js/swiper.min.js" type="text/javascript"></script>
     <!-- Scrips JS -->
     <script src="js/scripts.js" type="text/javascript"></script>
 </body>
