@@ -16,9 +16,9 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-4" id="nav">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="scrolling">
             <div class="container">
-                <a class="navbar-brand" href="#">Logo</a>
+                <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="" id="logo" style="width: 100%"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

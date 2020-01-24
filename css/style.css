@@ -61,8 +61,13 @@ box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 
 
 /* Web Site Style */
-#nav{
-    transition: .6s;
+#scrolling{
+    transition: .6s !important;
+    height: 150px;
+}
+#logo{
+    transition: .6s !important;
+    height: 90px;
 }
 section.home{
     position: relative;
