@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top pt-5">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-4" id="nav">
             <div class="container">
                 <a class="navbar-brand" href="#">Logo</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
