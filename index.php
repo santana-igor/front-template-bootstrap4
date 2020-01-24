@@ -8,6 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap 4 CSS -->
     <link rel="stylesheet" href="bootstrap_v4.3.1/css/bootstrap.min.css" type="text/css">
+    <!-- AOS Library CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Custom Style CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
@@ -21,8 +23,9 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav text-center" id="navbar-nav-collapse">
                         <li class="nav-item active">
                             <a class="nav-link" href="#blog">Blog<span class="sr-only">(current)</span></a>
                         </li>
@@ -37,6 +40,7 @@
                         </li>
                     </ul>
                 </div>
+                
             </div>
         </nav>
     </header>
@@ -46,7 +50,7 @@
         <div class="p-5"></div>
         <div class="p-5"></div>
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-right">
                 <div class="col-md-6">
                     <h1 class="text-uppercase text-white f-size-120 font-weight-bolder">Space<span class="text-default"
                             style="font-family: serif">.</span></h1>
@@ -58,7 +62,7 @@
             </div>
         </div>
         <div class="p-4"></div>
-        <div class="col-md-12">
+        <div class="col-md-12" id="hidden" data-aos="fade-left">
             <div class="overlay-child"></div>
             <div class="container p-4">
                 <div class="row">
@@ -86,7 +90,7 @@
     <section class="feacture bg-light">
         <div class="p-5"></div>
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="zoom-in-down">
                 <div class="card mx-auto border-0 shadow" style="width: 22rem;">
                     <img src="img/43690.jpg" class="card-img-top d-block w-100" alt="...">
                     <div class="card-body">
@@ -121,7 +125,7 @@
     <section class="about-us bg-light">
         <div class="p-5"></div>
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="zoom-out-left">
                 <div class="col-md-4 img-about-us rounded px-5"></div>
                 <div class="col-md-8 px-5">
                     <h3 class="text-uppercase font-weight-bolder text-default">About us</h3>
@@ -153,12 +157,18 @@
         </div>
     </footer>
 
-    <!-- jQuery JS-->
+    <!-- jQuery JS -->
     <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <!-- Bootstrap 4 JS -->
     <script src="bootstrap_v4.3.1/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- AOS Library CDN JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Scrips JS -->
     <script src="js/scripts.js" type="text/javascript"></script>
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

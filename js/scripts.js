@@ -1,10 +1,10 @@
 window.onload = function() {
   var logo = document.getElementById("logo");
   var nav = document.getElementById("scrolling");
+  var navbarCollapse = document.getElementById("navbar-nav-collapse");
   var scrollPosition = this.scrollY;
 
   if (scrollPosition > 90) {
-
 
     nav.style.background = "#4a90e2ff";
     nav.style.height = "80px";
@@ -14,7 +14,6 @@ window.onload = function() {
 
   } else {
 
-
     nav.style.background = "transparent";
     nav.style.height = "150px";
     nav.classList.remove("shadow");
@@ -22,10 +21,10 @@ window.onload = function() {
 
 
   }
+
   window.addEventListener("scroll", function(event) {
 
     if (window.pageYOffset > 90) {
-
 
       nav.style.background = "#4a90e2ff";
       nav.style.height = "80px";
@@ -35,7 +34,7 @@ window.onload = function() {
 
     } else {
 
-
+      navbarCollapse.style.background = "transparent";
       nav.style.background = "transparent";
       nav.style.height = "150px";
       nav.classList.remove("shadow");

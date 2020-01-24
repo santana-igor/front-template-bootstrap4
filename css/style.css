@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* Color default #4a90e2ff */
+/*========= Color default #4a90e2ff ==================================================*/
 
 /* Background */
 .bg-default {
@@ -24,7 +24,7 @@ a.text-default:hover, a.text-default:focus {
     color: #396da8 !important;
 }
 
-/* Button */
+/*============ Button ========================================================*/
 .btn-default {
 color: #fff;
 background-color: #4a90e2ff;
@@ -60,7 +60,7 @@ box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
 
-/* Web Site Style */
+/*======= Web Site Style ========================================================*/
 #scrolling{
     transition: .6s !important;
     height: 150px;
@@ -87,7 +87,14 @@ section.home{
     background-size: cover;
 }
 
-/* Boot */
+/* Media query */
+@media(max-width: 767px) {
+    #hidden{
+        display: none;
+    }
+}
+
+/*============== Boot ========================================================*/
 .f-size-10{
     font-size: 10px;
 }
