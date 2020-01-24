@@ -48,4 +48,4 @@ This is a model of a sticky navigation-bar, fixed on top after scrolling on page
 
 ## Preview
 
-[![Landing Page Preview](http://iamaral.com.br/images/github/joyjet-tech-interview/layout-full-page.png)](http://iamaral.com.br/images/github/joyjet-tech-interview/layout-full-page.png)
+[![Landing Page Preview](http://iamaral.com.br/images/github/joyjet-tech-interview/layout-full-page.mp4)](http://iamaral.com.br/images/github/joyjet-tech-interview/layout-full-page.mp4)
