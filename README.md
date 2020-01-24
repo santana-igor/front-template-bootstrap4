@@ -45,3 +45,7 @@ OBS: Will be a great differential if you use the [Scss version of the bootstrap 
 - Remember : [image compression](https://tinypng.com/) is important\!
 
 This is a model of a sticky navigation-bar, fixed on top after scrolling on page.
+
+## Preview
+
+[![Landing Page Preview](http://iamaral.com.br/images/github/joyjet-tech-interview/layout-full-page.png)]

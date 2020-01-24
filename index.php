@@ -68,12 +68,15 @@
                         <h5 class="text-white font-weight-bold">Trending</h5>
                         <h5><span class="text-default font-weight-bold">Today</span></h5>
                     </div>
+                    <?php
+                    for ($i=0; $i<2; $i++) {
+                    ?>
                     <div class="col-md-3 border-right-light px-4">
                         <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing ligula eget dolor.</p>
                     </div>
-                    <div class="col-md-3 border-right-light px-4">
-                        <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing ligula eget dolor.</p>
-                    </div>
+                    <?php
+                    }
+                    ?>
                     <div class="col-md-3 px-4">
                         <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing ligula eget dolor.</p>
                     </div>
@@ -90,26 +93,29 @@
                     <img src="img/43690.jpg" class="card-img-top d-block w-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-black-70">International Space Station</h5>
-                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien....</p>
+                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur luctus aliquet sapien....</p>
                     </div>
                 </div>
                 <div class="card mx-auto border-0 shadow" style="width: 22rem;">
                     <img src="img/43688.jpg" class="card-img-top d-block w-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-black-70">My capsule</h5>
-                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien....</p>
+                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur luctus aliquet sapien....</p>
                     </div>
                 </div>
                 <div class="card mx-auto border-0 shadow" style="width: 22rem;">
                     <img src="img/43698.jpg" class="card-img-top d-block w-100" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-black-70">My moon</h5>
-                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien....</p>
+                        <h5 class="card-title text-black-70">My moon</h5> <!-- Adjust the image -->
+                        <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur luctus aliquet sapien....</p>
                     </div>
                 </div>
             </div>
-            
-            
+
+
         </div>
         <div class="p-5"></div>
     </section>
@@ -122,12 +128,14 @@
                 <div class="col-md-8 px-5">
                     <h3 class="text-uppercase font-weight-bolder text-default">About us</h3>
                     <div class="p-2"></div>
-                    <p class="text-black-50 font-weight-light" style="line-height: 25px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                    <p class="text-black-50 font-weight-light" style="line-height: 25px;">Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                         Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
                         consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
                     </p>
-                    <p class="text-black-50 font-weight-light" style="line-height: 25px;">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+                    <p class="text-black-50 font-weight-light" style="line-height: 25px;">In enim justo, rhoncus ut,
+                        imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
                         mollis
                         pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
                         eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam
